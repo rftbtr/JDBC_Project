@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * Calculate the average salary of all employees
+ *
+ * Tüm çalışanların ortalama maaşını hesapla.</pre>
+ */
+
 public class QueryRunner03 extends DBUtility {
     @Test
     public void query03() {

@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * Find all salary changes for employee with emp. no '10102'
+ *
+ * '10102' iş numarasına sahip çalışanın tüm maaş değişikliklerini bul.</pre>
+ */
+
 public class QueryRunner10 extends DBUtility {
     @Test
     public void query01() {

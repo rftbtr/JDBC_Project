@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * Find the employee with the highest salary
+ *
+ * En yüksek maaşa sahip çalışanı bul.</pre>
+ */
+
 public class QueryRunner11 extends DBUtility {
     @Test
     public void query01() {

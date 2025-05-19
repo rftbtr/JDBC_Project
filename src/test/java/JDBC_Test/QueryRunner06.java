@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * List all employees in the "Sales" department with a salary greater than 70,000.
+ *
+ * Maaşı 70.000'den yüksek olan "Satış" departmanındaki tüm çalışanları listele.</pre>
+ */
+
 public class QueryRunner06 extends DBUtility {
     @Test
     public void query06() {
