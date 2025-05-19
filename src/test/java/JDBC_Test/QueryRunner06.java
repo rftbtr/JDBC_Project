@@ -7,7 +7,7 @@ import java.util.List;
 
 public class QueryRunner06 extends DBUtility {
     @Test
-    public void query01() {
+    public void query06() {
         List<List<String>> data = getData("select e.emp_no, e.first_name, e.last_name, d.dept_name, s.salary\n" +
                 "from employees.employees e\n" +
                 "join employees.dept_emp de on e.emp_no=de.emp_no\n" +

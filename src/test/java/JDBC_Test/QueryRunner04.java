@@ -7,7 +7,7 @@ import java.util.List;
 
 public class QueryRunner04 extends DBUtility {
     @Test
-    public void query01() {
+    public void query04() {
         List<List<String>> data = getData("select avg(s.salary) as averageSalaryMan from employees.employees e\n" +
                 "join employees.salaries s on e.emp_no=s.emp_no\n" +
                 "where e.gender='M';");
