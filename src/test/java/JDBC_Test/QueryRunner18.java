@@ -7,7 +7,7 @@ import java.util.List;
 
 public class QueryRunner18 extends DBUtility {
     @Test
-    public void query01() {
+    public void query18() {
         List<List<String>> data = getData("select first_name, last_name, hire_date from employees.employees\n" +
                                           "where hire_date < '1990-01-01'\n" +
                                           "order by first_name, last_name;");
