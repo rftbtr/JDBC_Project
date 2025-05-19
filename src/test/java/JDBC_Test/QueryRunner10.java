@@ -5,7 +5,7 @@ import utilities.DBUtility;
 
 import java.util.List;
 
-public class QueryRunner01 extends DBUtility {
+public class QueryRunner10 extends DBUtility {
     @Test
     public void query01() {
         List<List<String>> data = getData("select e.emp_no, e.first_name, e.last_name, d.dept_name\n" +
