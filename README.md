@@ -1,4 +1,4 @@
-# MySQLProject: Employee Database Queries
+# JDBCProject: Employee Database Queries
 
 This project includes SQL queries created to explore and analyze a sample employee database (`employees`). The queries are developed and executed using **IntelliJ IDEA** and the MySQL database engine.
 
@@ -15,19 +15,32 @@ The schema `employees` includes:
 
 ---
 
-![employees-schema.png](employees-schema.png)
+![employees-schema.png](src/main/resources/img/employees-schema.png)
 
 ## 📁 Project Structure
 
 ```
 
-MySQLProject/
-│
-├── queries/
-│   └── query01.sql - query20.sql   # SQL files for each task
-├── configuration.properties        # Configuration file for database connection
-├── README.md
-└── employees-schema.png            # Database schema image
+JDBC_Project/
+    │
+    └── src/
+        │
+        ├── main/
+        │   └── resources/              # Resources folder
+        │       └── img/                # Images folder
+        │           └── employees-schema.png
+        ├── test/
+        │   └── java/
+        │        ├── JDBC_Test/
+        │        │   └── QueryRunner01.java - QueryRunner20.java    # SQL files for each task
+        │        ├── queries/                                       # Java files for executing SQL queries
+        │        │   └── query_01.sql - query_20.sql
+        │        │ 
+        │        └── utilities/         # Utility classes for database connection
+        │            
+        ├── configuration.properties    # Configuration file for database connection
+        ├── pom.xml                     # Maven project file
+        └── README.md                   # Project documentation
 ````
 
 ---
