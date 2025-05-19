@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * Calculate the average salary of all employees with gender "F"
+ *
+ * "Kadın" cinsiyetindeki tüm çalışanların ortalama maaşını hesapla.</pre>
+ */
+
 public class QueryRunner05 extends DBUtility {
     @Test
     public void query05() {

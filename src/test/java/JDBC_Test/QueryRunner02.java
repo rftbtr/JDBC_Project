@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * List all employees in 'Human Resources' department.
+ *
+ * 'İnsan Kaynakları' departmanındaki tüm çalışanları listele.</pre>
+ */
+
 public class QueryRunner02 extends DBUtility {
     @Test
     public void query02() {

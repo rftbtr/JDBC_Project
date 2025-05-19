@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * Calculate the average salary for each department (by department number or department name)
+ *
+ * Her departmanın ortalama maaşını hesapla (departman numarasına veya departman adına göre).</pre>
+ */
+
 public class QueryRunner08 extends DBUtility {
     @Test
     public void query08() {

@@ -5,6 +5,13 @@ import utilities.DBUtility;
 
 import java.util.List;
 
+/**
+ * <pre>
+ * List all employees in department D001.
+ *
+ * D001 departmanındaki tüm çalışanları listele.</pre>
+ */
+
 public class QueryRunner01 extends DBUtility {
     @Test
     public void query01() {
@@ -18,4 +25,3 @@ public class QueryRunner01 extends DBUtility {
         }
     }
 }
-
