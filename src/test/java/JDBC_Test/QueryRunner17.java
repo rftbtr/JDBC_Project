@@ -7,7 +7,7 @@ import java.util.List;
 
 public class QueryRunner17 extends DBUtility {
     @Test
-    public void query01() {
+    public void query17() {
         List<List<String>> data = getData("SELECT\n" +
                                           "    d.dept_name AS department,\n" +
                                           "    e.first_name,\n" +
