@@ -347,4 +347,3 @@ Run each query file individually or use `query.sql` to execute all tasks in bulk
 * [Nuri Öztürk](https://github.com/NuriOzturk)
 * [Azim Korkmaz](https://github.com/AzimKorkmaz)
 * [Yigit Cam](https://github.com/Yigit-Cam)
-* [Eren Ozbebek](https://github.com/theeren123)
